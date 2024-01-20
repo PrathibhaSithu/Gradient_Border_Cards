@@ -74,7 +74,4 @@ body{
     bottom: 6px;
     z-index: 2;
     background: rgb(0,0,0,0.6);
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
