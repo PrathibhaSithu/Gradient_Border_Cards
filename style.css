@@ -90,3 +90,9 @@ body{
     padding: 20px 40px;
     z-index: 10;
 }
+.container .box .content h2{
+    position: relative;
+    color: #fff;
+    font-size: 1.5em;
+    z-index: 10;
+}
