@@ -45,7 +45,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg,#ffbc00,#ff0058,#7a00ff,#ff00c8);
+    background: linear-gradient(315deg,#03a9f4,#a34eff,#ff43d6);
     transition: 0.5s;
 }
 .container .box::after{
@@ -55,9 +55,14 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg,#ffbc00,#ff0058,#7a00ff,#ff00c8);
+    background: linear-gradient(315deg,#03a9f4,#a34eff,#ff43d6);
     filter: blur(40px);
 }
-.container .box:nth-child(2):before{
-    
+.container .box:nth-child(2)::before,
+.container .box:nth-child(2)::after{
+    background: linear-gradient(315deg,#f8e356,#ff4f8b,#e3b1f6);
+}
+.container .box:nth-child(3)::before,
+.container .box:nth-child(3)::after{
+    background: linear-gradient(315deg,#ffcc70,#c850c0,#4158d0);
 }
