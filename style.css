@@ -64,7 +64,7 @@ body{
 }
 .container .box:nth-child(3)::before,
 .container .box:nth-child(3)::after{
-    background: linear-gradient(315deg,#ffcc70,#b048f5,#ff70af);
+    background: linear-gradient(315deg,#e0709f,#fa709a,#d3f5cf);
 }
 .container .box span{
     position: absolute;
@@ -74,4 +74,14 @@ body{
     bottom: 6px;
     z-index: 2;
     background: rgb(0,0,0,0.6);
+}
+.container .box span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    pointer-events: none;
 }
