@@ -64,5 +64,5 @@ body{
 }
 .container .box:nth-child(3)::before,
 .container .box:nth-child(3)::after{
-    background: linear-gradient(315deg,#ffcc70,#c850c0,#4158d0);
+    background: linear-gradient(315deg,#ffcc70,#ff70af,#b048f5);
 }
