@@ -45,7 +45,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(315deg,#ff9897,#a34eff,#f650a0);
+    background: linear-gradient(45deg,#ff9897,#a34eff,#f650a0);
     transition: 0.5s;
 }
 .container .box::after{
@@ -55,7 +55,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(315deg,#ff9897,#a34eff,#f650a0);
+    background: linear-gradient(45deg,#ff9897,#a34eff,#f650a0);
     filter: blur(40px);
 }
 .container .box:nth-child(2)::before,
@@ -72,8 +72,8 @@ body{
     left: 6px;
     right: 6px;
     bottom: 6px;
-    font-size: 2em;
-    color: #fff;
+    z-index: 2;
+    background: rgb(0,0,0,0.6);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
